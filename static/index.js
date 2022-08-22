@@ -186,7 +186,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
     function gameInit() {
         createjs.Sound.registerSound({
             src: "./static/music/duckss.mp3",
-            id: "duckss"
+            id: "err"
         });
         createjs.Sound.registerSound({
             src: "./static/music/end.mp3",
@@ -194,7 +194,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         });
         createjs.Sound.registerSound({
             src: "./static/music/ducksshh.mp3",
-            id: "ducksshh"
+            id: "tap"
         });
         gameRestart();
     }
